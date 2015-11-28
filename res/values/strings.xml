@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Principal!</string>
+    <string name="app_name">AulaAndroid</string>
+    
+    <string name="lblnome">Informe o nome</string>
+    <string name="lblidade">Informe a idade</string>
+    <string name="lblemail">Informe o e-mail</string>
+    <string name="lblbtn">Enviar os Dados</string>
+
+</resources>

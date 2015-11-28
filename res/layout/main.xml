@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblnome" />
+
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+main/txtnome"
+        android:inputType="text"
+        />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblemail" />
+    
+    <EditText
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+main/txtemail"
+        />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblidade" />
+    
+    <EditText 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:inputType="numberSigned"
+        	android:id="@+main/txtidade"
+        />
+    
+    <Button 
+        	android:text="@string/lblbtn"
+        	android:id="@+main/btn"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        />
+</LinearLayout>
